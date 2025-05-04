@@ -2692,7 +2692,7 @@ function library:CreateWindow(name, size, hidebutton)
 				return colorpicker
 			end
 
-			function sector:AddKeybind(text, default, newkeycallback, callback, flag)
+			function sector:AddK(text, default, newkeycallback, callback, flag)
 				local keybind = {}
 
 				keybind.text = text or ""
